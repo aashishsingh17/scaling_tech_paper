@@ -1,9 +1,9 @@
- #**Abstract**
+ **Abstract**
  
 To overcome the issue in performance and scaling needs proper load balancing. 
 We are looking to investigate the possibility of using *load balancers* and understand *horizontal scaling* and *vertical scaling*.
 
-#**Introduction**
+**Introduction**
 
 Let's understand load balancing, load balancing is the approach for efficient distribution of the set of tasks
 over resources to avoid overloading and low performance and to make the server efficiently scalable.
@@ -16,11 +16,16 @@ server response time, and Least connection to distribute traffic with requiremen
 
 *Specifically, I am taking the examples of load balancers available in AWS(Amazon Web Services) 
 as per convenience we can use others as well.
-i) Elastic Load Balancing that automatically distributes incoming application traffic across multiple targets.
-ii) Application Load Balancer for load balancing of HTTP and HTTPS traffic.
+i) Elastic Load Balancing that automatically distributes incoming application traffic across multiple targets. 
+
+ii) Application Load Balancer for load balancing of HTTP and HTTPS traffic. 
+
 iii) Network Load Balancer for load balancing of Transmission Control Protocol, User Datagram Protocol, 
+
 and Transport Layer Security traffic where extreme performance is required.
+
 iv) Gateway Load Balancer makes it easy to deploy, scale, and run third-party virtual networking appliances.
+
 v) Classic Load Balancer provides basics load balancing.*
 
 Let's understand the scaling of resources over traffic. There are horizontal scaling and vertical scaling solutions.
@@ -39,14 +44,14 @@ example adding more CPU, RAM to the existing machine. Data present on a single n
 it is comparatively cost-effective and increases the power of the individual server.
 
                                                      
-#**Conclusion**
+**Conclusion**
 
 We have come across the maximum possible ways to overcome performance and scaling issues 
 and as per requirements we can do load balancing and for distribution of resources over traffic we can 
 use horizontal scaling and vertical scaling solutions.
 
                                                       
-#**References**
+**References**
 
 1] *AWS load balancing* [see reference](https://aws.amazon.com/elasticloadbalancing/?whats-new-cards-elb.sort-by=item.additionalFields.postDateTime&whats-new-cards-elb.sort-order=desc).
 
